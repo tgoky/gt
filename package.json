@@ -1,0 +1,27 @@
+{
+  "name": "bg-remover",
+  "version": "1.2.0",
+  "description": "Batch background remover CLI - AI segmentation (IS-Net) with chroma-key fallback. Transparent PNG output.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "remove-bg": "remove-bg.mjs"
+  },
+  "scripts": {
+    "bg": "node remove-bg.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
+    "commander": "^15.0.0",
+    "fast-glob": "^3.3.3",
+    "sharp": "^0.35.5"
+  },
+  "allowScripts": {
+    "sharp@0.32.6": true,
+    "sharp@0.35.5": true,
+    "onnxruntime-node@1.17.3": true
+  }
+}

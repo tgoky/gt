@@ -1,0 +1,3 @@
+Drop your RAW photos here (rough.png, vial-blue.png, ...)
+then run:  node remove-bg.mjs shots/
+Cutouts appear in the output/ folder next to this one.
